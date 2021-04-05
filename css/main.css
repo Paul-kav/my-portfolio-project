@@ -1,0 +1,135 @@
+/*****BASE STYLES *****/
+body {
+  font-family: 'Montserrat',sans-serif;
+}
+h1 {
+font-family: 'Lato', sans-serif;
+}
+h2 {
+  font-family: 'PT Sans',sans-serif;
+}
+h3 {
+  font-family: 'PT Sans',sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/*****GRID *****/
+.third-width {
+  box-sizing: border-box;
+}
+
+/***** HEADER CODE *****/
+header {
+  height: 646px;
+  background-color: #ffffff;
+  padding: 100px;
+}
+nav {
+  margin-left: 95px;
+  float: right;
+  font-family:'PT Sans',sans-serif;
+}
+nav ul li {
+  display: inline-block;
+  text-align: right;
+}
+nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2d2c2d;
+  font-weight: bold;
+  font-size: 24px;
+}
+header h1 {
+  font-size: 64px;
+  font-weight: bolder;
+  line-height: normal;
+  margin-bottom: 65px;
+  padding-top: 148px;
+  letter-spacing: inherit;
+}
+span{
+  color: #ff654a;
+}
+header p {
+  font-size: 48px;
+  margin-bottom: 196px;
+}
+
+/*****ABOUT CODE *****/
+#about {
+  padding: 100px;
+  background-color: #ff654a;
+  color: #ffffff;
+  text-align: center;
+}
+#about img{
+  height: 300px;
+  width: 300px;
+  border: 6px solid #ffffff;
+}
+#about h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+#bout h3 {
+  font-size: 24px;
+}
+#aboout p {
+  font-size: 24px;
+  line-height: 100%;
+  padding: 0px 337px;
+  text-align: center;
+}
+
+/***** PORTIFOLIO CODE *****/
+#portifolio {
+  padding: 100px;
+  height: 656px;
+}
+#portifolio h2 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 36px;
+
+}
+#portifolio .third-width {
+  float: left;
+  padding: 0 110px 0;
+  height: 360px;
+}
+#portfolio img {
+  width:300px;
+  height:186px;
+}
+#portfolio {
+  line-height: 100px;
+}
+
+/*****CONTACT CODE*****/
+#contact {
+  background-color: #ff654a;
+  height: 530px;
+  color: #ffffff;
+  padding: 9px 0 0 36px;
+  text-align: center;
+  }
+#contact h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+#contact .third-width {
+  width: 466px;
+  margin: 8px 79px 3px;
+  float: left;
+}
+#contact a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer {
+  padding-top: 383px;
+}
