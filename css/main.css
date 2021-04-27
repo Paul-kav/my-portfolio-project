@@ -44,7 +44,7 @@ header {
 
 header .content-wrapper {
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
 
 header h2 {
@@ -229,7 +229,11 @@ span{
 }  
 
 /* Header code */
+header {
+  justify-content: space-around;
+}
 header .content-wrapper {
+  display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
 }
@@ -281,6 +285,28 @@ header nav ul {
 
 #contact.content-wrapper {
   width: 100%;
+}
+
+.connection-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+}
+
+@media only screen and (min-width: 1200px){
+  /* Desktop styles here */
+
+  /* Portifolio code */
+#portifolio {
+  display: flex;
+  padding: 100px;
+}  
+
+/* Contact code */
+#contact {
+  display: 
 }
 
 .connection-info {
