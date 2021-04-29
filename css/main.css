@@ -118,10 +118,6 @@ span{
   align-items: center;
   width: 100%;
 }
-.full-width {
-  width: 100%;
-  overflow: auto;
-}
 
 #about .content-wrapper {
   padding: 100px;
@@ -143,7 +139,7 @@ span{
   font-family: 1.5em;
   color: #ffffff;
 }
-.personal-description p {
+#about .personal-description p {
   font-size: 1.5em;
   line-height: 100%;
   text-align: center;
@@ -196,7 +192,7 @@ span{
 #contact {
   background-color: #ff654a;
   color: #ffffff;
-  padding: 9px 0 0 36px;
+  padding: 0;
   width: 100%;
 }
 #contact h2 {
@@ -225,6 +221,7 @@ span{
 /* Tablet styles here */
 /* General styles */
 .content-wrapper {
+  max-width: 640px;
   margin: 50px 0;
 }  
 
@@ -252,6 +249,9 @@ header nav ul {
 /* Hero area code */
 
 /* About code */
+#about .content-wrapper {
+  width: 100%
+}
 /* Portifolio code */
 #portifolio {
   display: flex;
@@ -287,32 +287,34 @@ header nav ul {
   width: 100%;
 }
 
-.connection-info {
+#contact .connection-info {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   flex-flow: row wrap;
+  margin: 0;
 }
 }
 
 @media only screen and (min-width: 1200px){
-  /* Desktop styles here */
+/* Desktop styles here */
+/* General styles */
+.content-wrapper {
+  max-width: 960px;
+}
 
-  /* Portifolio code */
+/* Portifolio code */
 #portifolio {
   display: flex;
   padding: 100px;
 }  
 
 /* Contact code */
-#contact {
-  display: 
+#contact .content-wrapper {
+
 }
 
 .connection-info {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-flow: row wrap;
+  
 }
 }
