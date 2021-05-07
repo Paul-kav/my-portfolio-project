@@ -183,8 +183,9 @@ span{
   flex-flow: column wrap;
   margin: 50px 0;
   width: 90%;
+  height: 
 }
-.work-description img {
+#portifolio .work-description img {
   max-width: 100%;
 }
 
@@ -306,8 +307,14 @@ header nav ul {
 /* Portifolio code */
 #portifolio {
   display: flex;
-  padding: 100px;
+  justify-content: center;
 }  
+
+#portifolio .work-description {
+  display: flex;
+  justify-content: center;
+  max-width: 
+}
 
 /* Contact code */
 #contact .content-wrapper {
