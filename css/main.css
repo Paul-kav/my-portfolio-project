@@ -19,7 +19,7 @@ h2 {
 
 h3 {
   font-family: 'PT Sans',sans-serif;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -66,7 +66,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column;
   margin: 16px 0;
 }
 
@@ -76,7 +76,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column;
 }
 nav ul li {
   padding: 5px;
@@ -120,7 +120,7 @@ span{
 }
 
 #about .content-wrapper {
-  padding: 100px;
+  padding: 100px 240px;
   background-color: #ff654a;
 }
 
@@ -136,7 +136,6 @@ span{
 }
 #about h3 {
   font-size: 1.5em;
-  font-family: 1.5em;
   color: #ffffff;
 }
 #about .personal-description p {
@@ -170,7 +169,7 @@ span{
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-flow: row wrap;
+  flex-flow: column;
 }
 
 #portifolio .content-wrapper {
@@ -180,10 +179,10 @@ span{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column wrap;
+  flex-flow: column;
   margin: 50px 0;
   width: 90%;
-  height: 
+  /* height:  */
 }
 #portifolio .work-description img {
   max-width: 100%;
@@ -257,7 +256,8 @@ header nav ul {
 #portifolio {
   display: flex;
   justify-content: space-between;
-  align-items: row wrap;
+  /* align-items:  */
+  flex-flow: row wrap;
 }
 
 .full-width {
@@ -313,7 +313,7 @@ header nav ul {
 #portifolio .work-description {
   display: flex;
   justify-content: center;
-  max-width: 
+  /* max-width:  */
 }
 
 /* Contact code */
