@@ -10,11 +10,11 @@ body {
 }
 
 h1 {
-font-family: 'Lato', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
-  font-family: 'PT Sans',sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 h3 {
@@ -23,7 +23,7 @@ h3 {
   font-weight: bold;
 }
 
-.content-wrapper {
+.full-width {
   width: 90%;
   margin: 50px 0;
 }
@@ -36,13 +36,45 @@ h3 {
 
 /* Header code */
 header {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+header h1 {
+  font-size: 2em;
+  font-weight: bolder;
+  line-height: normal;
+  margin-bottom: 20px;
+  padding-top: 70px;
+  letter-spacing: inherit;
+  text-align: left;
+}
+header span {
+  color: #ff654a;
+}
+
+/* header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/* } */
+nav {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 16px 0;
+} 
+
+/* header {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header .content-wrapper {
+/* header .content-wrapper { 
   align-items: center;
   flex-flow: column wrap;
 }
@@ -60,15 +92,14 @@ header h2 {
   justify-content: center;
   align-items: center;
   background-color: black;
-}
-nav {
-  font-family: 'PT Sans',sans-serif;
+/* } */
+/* nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column;
+  flex-flow: row wrap;
   margin: 16px 0;
-}
+}  */
 
 nav ul {
   padding: 0;
@@ -76,7 +107,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column;
+  flex-flow: row wrap;
 }
 nav ul li {
   padding: 5px;
@@ -88,18 +119,21 @@ nav ul li a {
   color: #2d2c2d;
   font-weight: bold;
   font-size: 1.5em;
+} 
+header p {
+  font-size: 1.15em;
 }
 
-/* Hero area code */
-#hero-area {
+/* Hero area code  */
+/* #hero-area {
   min-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 #hero-area h1 {
-  font-size: 64px;
-  font-weight: bolder;
+  font-size: 2em;
+  font-weight: bold;
   line-height: normal;
   margin-bottom: 65px;
   letter-spacing: inherit;
@@ -108,28 +142,36 @@ span{
   color: #ff654a;
 }
 #hero-area p {
-  font-size: 48px;
-}
+  font-size: 1.5em;
+} */
 
 /* About code */
+/* #about {
+  padding: 100px;
+  background-color: #ff654a;
+  color: #ffff;
+} */
 #about {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  background-color: #ff654a;
+  color: #ffffff;
 }
 
-#about .content-wrapper {
+/* #about .content-wrapper { 
   padding: 100px 240px;
   background-color: #ff654a;
-}
+/* } */
 
 #about img{
-  width: 300px;
+  width: 90%;
+  max-width: 300px;
   border: 6px solid #ffffff;
 }
 
-#about h2 {
+/* #about h2 {
   font-size: 2.25em;
   font-weight: bold;
   color: #ffffff;
@@ -137,21 +179,27 @@ span{
 #about h3 {
   font-size: 1.5em;
   color: #ffffff;
-}
-#about .personal-description p {
-  font-size: 1.5em;
+/* } */
+#about p {
+  font-size: 1.15em;
   line-height: 100%;
   text-align: center;
   color: #ffffff;
   margin: 45px;
-}
+} 
 
 /* Portifolio code */
 #portifolio {
   display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column;
+}  
+/* #portifolio {
+  display: flex;
   align-content: center;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
 }
 .full-width {
   width: 100%;
@@ -160,7 +208,7 @@ span{
 #portifolio h2 {
   text-align: center;
   padding-top: 40px;
-  font-size: 36px;
+  font-size: 2em;
 
 }
 
@@ -170,23 +218,24 @@ span{
   justify-content: center;
   align-content: center;
   flex-flow: column;
-}
+} 
 
-#portifolio .content-wrapper {
+/* #portifolio .content-wrapper {
   margin: 0 150px;
-}
-#portifolio .work-description {
+} */ */
+#portifolio .third-width { 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
   margin: 50px 0;
   width: 90%;
-  /* height:  */
 }
-#portifolio .work-description img {
-  max-width: 100%;
-}
+
+#portifolio img { 
+  max-width: 247px;
+  border: 2px solid gray; 
+}  
 
 /* Contact code */
 #contact {
@@ -194,12 +243,13 @@ span{
   color: #ffffff;
   padding: 0;
   width: 100%;
+  flex-flow: column;
 }
 #contact h2 {
-  font-size: 36px;
+  font-size: 2em;
   font-weight: bold;
 }
-#contact .connection-info {
+#contact .contact-details {
   margin: 8px 79px 3px;
   display: flex;
   justify-content: center;
@@ -220,7 +270,7 @@ span{
 @media only screen and (min-width: 768px) {
 /* Tablet styles here */
 /* General styles */
-.content-wrapper {
+.full-width {
   max-width: 640px;
   margin: 50px 0;
 }  
@@ -229,24 +279,47 @@ span{
 header {
   justify-content: space-around;
 }
-header .content-wrapper {
+header nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-flow: row wrap;
+  width: 100%;
 }
 
-.header-divider {
+/* .header-divider {
   display: none;
-}
+} */
 
 header nav ul {
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-flow: row wrap;
-  width: 382px;
+}
+header .intro-details {
+  display: flex;
+  align-items: flex-end;
+  text-align: left;
+  font-size: 1.25em;
+}
+header .main-title {
+  display: flex;
+  justify-content: flex-start;
+}
+header p {
+  font-size: 1.5em;
+}
+header h1 {
+  font-size: 3em;
 }
 
-
 /* Hero area code */
+/* #hero-area h1 {
+  font-size: 3em;
+  max-width: 960px;
+}
+
+#hero-area p {
+font-size: 2.25em;
+} */
 
 /* About code */
 #about .content-wrapper {
@@ -255,13 +328,14 @@ header nav ul {
 /* Portifolio code */
 #portifolio {
   display: flex;
-  justify-content: space-between;
-  /* align-items:  */
+  justify-content: center;
   flex-flow: row wrap;
 }
 
 .full-width {
   width: 100%;
+  padding: 50px;
+  margin: 50px 0;
 }
 
 .work {
@@ -272,10 +346,11 @@ header nav ul {
   max-width: 100%;
 }
 
-.work-description {
+#portifolio .third-width {
   flex-flow: row wrap;
-  max-width: 45%;
+  width: 45%;
 }
+
 /* Contact code */
 #contact {
   display: flex;
@@ -283,12 +358,15 @@ header nav ul {
   align-items: center;
 
 }
+#contact .third-width {
+  width: 30%;
+}
 
-#contact.content-wrapper {
+#contact .full-width{
   width: 100%;
 }
 
-#contact .connection-info {
+#contact .contact-details {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -300,20 +378,43 @@ header nav ul {
 @media only screen and (min-width: 1200px){
 /* Desktop styles here */
 /* General styles */
-.content-wrapper {
+.full-width {
   max-width: 960px;
+}
+
+/* Header code */
+header h1 {
+  font-size: 3em;
+}
+header p {
+font-size: 2.5em;
 }
 
 /* Portifolio code */
 #portifolio {
-  display: flex;
-  justify-content: center;
+  display: flex;  
+  justify-content: center; 
 }  
 
 #portifolio .work-description {
   display: flex;
   justify-content: center;
   /* max-width:  */
+}
+
+#portifolio .work-description img {
+  width: 413px;
+  height: 273px;
+  border: 1px solid gray; 
+}
+/* Hero area code */
+#hero-area h1 {
+font-size: 4em;
+max-width: 1100px;
+}
+
+#hero-area p {
+  font-size: 1.9em;
 }
 
 /* Contact code */
