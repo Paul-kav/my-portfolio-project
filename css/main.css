@@ -67,40 +67,6 @@ nav {
   margin: 16px 0;
 } 
 
-/* header {
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* header .content-wrapper { 
-  align-items: center;
-  flex-flow: column wrap;
-}
-
-header h2 {
-  font-size: 2.25em;
-  line-height: 1;
-  font-weight: 700;
-}
-
-.header-divider {
-  width: 90%;
-  height: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-/* } */
-/* nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  margin: 16px 0;
-}  */
-
 nav ul {
   padding: 0;
   margin: 0;
@@ -124,33 +90,7 @@ header p {
   font-size: 1.15em;
 }
 
-/* Hero area code  */
-/* #hero-area {
-  min-height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#hero-area h1 {
-  font-size: 2em;
-  font-weight: bold;
-  line-height: normal;
-  margin-bottom: 65px;
-  letter-spacing: inherit;
-}
-span{
-  color: #ff654a;
-}
-#hero-area p {
-  font-size: 1.5em;
-} */
 
-/* About code */
-/* #about {
-  padding: 100px;
-  background-color: #ff654a;
-  color: #ffff;
-} */
 #about {
   display: flex;
   justify-content: center;
@@ -160,26 +100,12 @@ span{
   color: #ffffff;
 }
 
-/* #about .content-wrapper { 
-  padding: 100px 240px;
-  background-color: #ff654a;
-/* } */
-
 #about img{
   width: 90%;
   max-width: 300px;
   border: 6px solid #ffffff;
 }
 
-/* #about h2 {
-  font-size: 2.25em;
-  font-weight: bold;
-  color: #ffffff;
-}
-#about h3 {
-  font-size: 1.5em;
-  color: #ffffff;
-/* } */
 #about p {
   font-size: 1.15em;
   line-height: 100%;
@@ -195,12 +121,7 @@ span{
   align-content: center;
   flex-flow: column;
 }  
-/* #portifolio {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  /* width: 100%; */
-}
+
 .full-width {
   width: 100%;
   overflow: auto;
@@ -220,17 +141,14 @@ span{
   flex-flow: column;
 } 
 
-/* #portifolio .content-wrapper {
-  margin: 0 150px;
-} */ */
-#portifolio .third-width { 
+/* #portifolio .third-width { 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
   margin: 50px 0;
   width: 90%;
-}
+} */
 
 #portifolio img { 
   max-width: 247px;
@@ -286,10 +204,6 @@ header nav {
   width: 100%;
 }
 
-/* .header-divider {
-  display: none;
-} */
-
 header nav ul {
   justify-content: flex-end;
   flex-flow: row wrap;
@@ -310,16 +224,6 @@ header p {
 header h1 {
   font-size: 3em;
 }
-
-/* Hero area code */
-/* #hero-area h1 {
-  font-size: 3em;
-  max-width: 960px;
-}
-
-#hero-area p {
-font-size: 2.25em;
-} */
 
 /* About code */
 #about .content-wrapper {
