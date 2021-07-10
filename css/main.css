@@ -177,6 +177,16 @@ header p {
 #contact a {
   color: #ffffff;
   text-decoration: none;
+  text-decoration: underline;
+}
+#myButton {
+  border: 2px solid white;
+  background-color: #ff654a;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5em;
+  border-radius: 8px;
+  display: flex;
+  /* margin-left: 1000px; */
 }
 .footer {
   padding-top: 150px;
@@ -277,7 +287,6 @@ header h1 {
   flex-flow: row wrap;
   margin: 0;
 }
-}
 
 @media only screen and (min-width: 1200px){
 /* Desktop styles here */
@@ -319,14 +328,4 @@ max-width: 1100px;
 
 #hero-area p {
   font-size: 1.9em;
-}
-
-/* Contact code */
-#contact .content-wrapper {
-
-}
-
-.connection-info {
-  
-}
 }
