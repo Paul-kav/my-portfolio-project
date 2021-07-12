@@ -180,14 +180,23 @@ header p {
   text-decoration: underline;
 }
 #myButton {
+  display: none; /* Hidden by default */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  color: white;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px;
+  border-radius: 8px; 
   border: 2px solid white;
-  background-color: #ff654a;
+  background-color: #ff654a; 
   font-family: 'PT Sans', sans-serif;
   font-size: 1.5em;
-  border-radius: 8px;
-  display: flex;
-  /* margin-left: 1000px; */
+  position: fixed;
 }
+#myButton:hover {
+  background-color: teal;
+} 
+
 .footer {
   padding-top: 150px;
   display: flex;
