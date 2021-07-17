@@ -25,7 +25,7 @@ h3 {
 
 .full-width {
   width: 90%;
-  margin: 50px 0;
+  margin: 50px auto;
 }
 
 .work {
@@ -44,7 +44,7 @@ header h1 {
   font-size: 2em;
   font-weight: bolder;
   line-height: normal;
-  margin-bottom: 20px;
+  margin-bottom: px;
   padding-top: 70px;
   letter-spacing: inherit;
   text-align: left;
@@ -53,27 +53,20 @@ header span {
   color: #ff654a;
 }
 
-/* header nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-/* } */
 nav {
-  font-size: 1em;
+  font-size: .75em;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
-  margin: 16px 0;
+  flex-flow: column;
+  margin: 0;
 } 
 
 nav ul {
-  padding: 0;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column;
 }
 nav ul li {
   padding: 5px;
@@ -81,9 +74,8 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  text-transform: uppercase;
   color: #2d2c2d;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 1.5em;
 } 
 header p {
@@ -128,7 +120,7 @@ header p {
 }
 #portifolio h2 {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 5px;
   font-size: 2em;
 
 }
@@ -141,17 +133,9 @@ header p {
   flex-flow: column;
 } 
 
-/* #portifolio .third-width { 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  margin: 50px 0;
-  width: 90%;
-} */
-
 #portifolio img { 
-  max-width: 247px;
+  max-width: 100%;
+  height: 180px;
   border: 2px solid gray; 
 }  
 
@@ -180,11 +164,11 @@ header p {
   text-decoration: underline;
 }
 #myButton {
-  display: none; /* Hidden by default */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  display: none; 
+  bottom: 20px; 
+  right: 30px; 
   color: white;
-  cursor: pointer; /* Add a mouse pointer on hover */
+  cursor: pointer; 
   padding: 5px;
   border-radius: 8px; 
   border: 2px solid white;
@@ -221,6 +205,7 @@ header nav {
   justify-content: flex-end;
   flex-flow: row wrap;
   width: 100%;
+  font-size: 1em;
 }
 
 header nav ul {
@@ -324,10 +309,10 @@ font-size: 2.5em;
   /* max-width:  */
 }
 
-#portifolio .work-description img {
-  width: 413px;
+#portifolio img {
+  max-width: 100%;
   height: 273px;
-  border: 1px solid gray; 
+  border: 2px solid gray; 
 }
 /* Hero area code */
 #hero-area h1 {

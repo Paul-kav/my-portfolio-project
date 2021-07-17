@@ -1,11 +1,11 @@
-//Get the button:
+
 const mybutton = document.querySelector("#myButton");
 
-// When the user scrolls down 5px from the top of the document, show the button
+// When the user scrolls down 500px from the top of the document, show the button
  window.onscroll = function() {scrollFunction()};
 
  function scrollFunction() {
-   if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+    if (document.documentElement.scrollTop > 500) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
