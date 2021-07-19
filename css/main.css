@@ -106,8 +106,8 @@ header p {
   margin: 45px;
 } 
 
-/* Portifolio code */
-#portifolio {
+/* Portfolio code */
+#portfolio {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -118,7 +118,7 @@ header p {
   width: 100%;
   overflow: auto;
 }
-#portifolio h2 {
+#portfolio h2 {
   text-align: center;
   padding-top: 5px;
   font-size: 2em;
@@ -133,7 +133,7 @@ header p {
   flex-flow: column;
 } 
 
-#portifolio img { 
+#portfolio img { 
   max-width: 100%;
   height: 180px;
   border: 2px solid gray; 
@@ -233,8 +233,8 @@ header h1 {
 #about .content-wrapper {
   width: 100%
 }
-/* Portifolio code */
-#portifolio {
+/* Portfolio code */
+#portfolio {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -254,7 +254,7 @@ header h1 {
   max-width: 100%;
 }
 
-#portifolio .third-width {
+#portfolio .third-width {
   flex-flow: row wrap;
   width: 45%;
 }
@@ -298,18 +298,18 @@ font-size: 2.5em;
 }
 
 /* Portifolio code */
-#portifolio {
+#portfolio {
   display: flex;  
   justify-content: center; 
 }  
 
-#portifolio .work-description {
+#portfolio .work-description {
   display: flex;
   justify-content: center;
   /* max-width:  */
 }
 
-#portifolio img {
+#portfolio img {
   max-width: 100%;
   height: 290px;
   border: 2px solid gray; 
