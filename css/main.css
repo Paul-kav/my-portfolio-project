@@ -92,6 +92,10 @@ header p {
   color: #ffffff;
 }
 
+#about .full-width {
+  margin: 10px;
+}
+
 #about img{
   width: 90%;
   max-width: 300px;
@@ -103,7 +107,7 @@ header p {
   line-height: 100%;
   text-align: center;
   color: #ffffff;
-  margin: 45px;
+  margin: 15px;
 } 
 
 /* Portfolio code */
@@ -167,12 +171,12 @@ header p {
   display: none;
   bottom: 20px; 
   right: 30px; 
-  color: white;
+  color: red;
   cursor: pointer; 
   padding: 5px;
   border-radius: 8px; 
   border: 2px solid white;
-  background-color: #ff654a; 
+  background-color: white; 
   font-family: 'PT Sans', sans-serif;
   font-size: 1.5em;
   position: fixed; 
@@ -182,7 +186,6 @@ header p {
 } 
 
 .footer {
-  padding-top: 150px;
   display: flex;
   justify-content: center;
   align-content: center;
