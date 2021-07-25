@@ -53,7 +53,44 @@ header span {
   color: #ff654a;
 }
 
-nav {
+
+.mynav {
+  overflow: hidden;
+  background-color: #ff654a;
+  position: relative;
+  font-size: .75em;
+  margin: 0;
+} 
+
+.mynav #mylinks {
+  display: none; 
+  
+}
+.mynav a {
+  color: #ffffff;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.mynav  a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bolder;
+  font-size: 1.5em;
+  float: right;
+} 
+
+.active {
+  background-color: coral;
+  color: #ffffff;
+  text-align: left;
+}
+
+/* nav {
   font-size: .75em;
   display: flex;
   justify-content: center;
@@ -78,7 +115,7 @@ nav ul li a {
   color: #2d2c2d;
   font-weight: bolder;
   font-size: 1.5em;
-} 
+}  */
 header p {
   font-size: 1.15em;
 }
@@ -203,18 +240,30 @@ header p {
 header {
   justify-content: space-around;
 }
-header nav {
-  display: flex;
-  justify-content: flex-end;
-  flex-flow: row wrap;
-  width: 100%;
-  font-size: 1em;
+
+.mynav {
+  font-size: 1.25em;
 }
 
-header nav ul {
-  justify-content: flex-end;
-  flex-flow: row wrap;
+.mynav #mylinks {
+  float: left;
+  display: flex;
+} 
+
+.mynav a {
+  padding: 14px 16px;
+  float: left;
 }
+
+.mynav a.icon {
+  display: none;
+}
+
+.mynav a:hover {
+  background-color: gray;
+  color: #ffffff;
+}
+
 header .intro-details {
   display: flex;
   align-items: flex-end;
