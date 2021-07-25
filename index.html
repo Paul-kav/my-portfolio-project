@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&family=Yusei+Magic&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat&family=Open+Sans:ital,wght@0,600;1,600&family=PT+Sans:wght@700&family=Yusei+Magic&display=swap" rel="stylesheet">
 
@@ -19,13 +19,25 @@
       <header>
         <div class="full-width">
         <div class="half-width">
-          <nav>
+          <div class="mynav">
+            <a href="#home" class="active">Home</a>
+          <div id="mylinks">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i> 
+          </a> 
+        
+        </div> 
+          <!-- <nav>
             <ul>
               <li><a href="#about">About</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-          </nav> 
+          </nav>  -->
         </div> 
         <div class="half-width">
           <div class="main-title">
