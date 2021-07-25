@@ -18,6 +18,15 @@ function topFunction() {
 }
 
 
+function myFunction() {
+  mylinks = document.querySelector("#mylinks");
+  if (mylinks.style.display === "block") {
+    mylinks.style.display = "none";
+  } else {
+    mylinks.style.display = "block";
+  }
+}
+
  
 
 
