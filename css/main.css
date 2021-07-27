@@ -7,6 +7,7 @@ body {
   font-size: 1em;
   font-family: 'Montserrat',sans-serif;
   text-align: center;
+  box-sizing: border-box; */
 }
 
 h1 {
@@ -28,9 +29,9 @@ h3 {
   margin: 15px 0;
 }
 
-.work {
-  box-sizing: border-box;
-}
+/* .work {
+  box-sizing: border-box; 
+} */
 
 /* -------- Mobile Styles --------*/
 
@@ -43,7 +44,7 @@ header {
   display: flex;
   justify-content: center;
   justify-items: center;
-  margin: 15px 0;
+  margin: 9px 0;
 }
 header h1 {
   font-size: 2em;
@@ -60,7 +61,7 @@ header span {
 
 header p {
   font-size: 1.15em;
-  margin: 15px;
+  margin: 9px;
 } 
 
 .mynav  {
@@ -115,7 +116,7 @@ header p {
 }
 
 #about .full-width {
-  margin: 0;
+  margin: 9px;
 }
 
 #about img{
@@ -160,7 +161,7 @@ header p {
 } 
 
 #portfolio img { 
-  max-width: 100%;
+  max-width: 247px;
   height: 180px;
   border: 2px solid gray; 
 }  
@@ -226,11 +227,13 @@ header {
   justify-content: space-around;
   width: 100%;
   overflow: hidden;
+  padding: ;
 }
 
 .mynav {
   font-size: 1.25em;
   margin-bottom: 16px;
+  padding: 10px 0;
 }
 
 .mynav #mylinks {
@@ -273,7 +276,7 @@ header h1 {
 
 /* About code */
  #about .full-width {
-  width: 100%
+  width: 100%;
 } 
 
 /* Portfolio code */
@@ -328,16 +331,16 @@ header h1 {
 @media only screen and (min-width: 1200px){
 /* Desktop styles here */
 /* General styles */
-.full-width {
-  /* max-width: 960px;  */
-}
 
 /* Header code */
+header .half-width {
+  padding: px 0;
+}
 header h1 {
-font-size: 3em;
+font-size: 2em;
 }
 header p {
-font-size: 2.5em;
+font-size: 1.2em;
 }
 
 /* Portifolio code */
