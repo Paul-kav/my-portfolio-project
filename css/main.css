@@ -179,7 +179,6 @@ header p {
 #contact {
   background-color: #ff654a;
   color: #ffffff;
-  /* padding: 0; */
   width: 100%;
   flex-flow: column;
 }
@@ -197,8 +196,12 @@ header p {
 #contact a {
   color: #ffffff;
   text-decoration: none;
-  text-decoration: underline;
 }
+
+#contact a:hover {
+  color: blue;
+}
+
 #myButton {
   display: none;
   bottom: 20px; 
