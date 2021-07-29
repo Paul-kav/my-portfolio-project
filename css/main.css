@@ -7,7 +7,8 @@ body {
   font-size: 1em;
   font-family: 'Montserrat',sans-serif;
   text-align: center;
-  box-sizing: border-box; */
+  box-sizing: border-box;  
+  /* padding: 0 20px; */
 }
 
 h1 {
@@ -25,19 +26,20 @@ h3 {
 }
 
 .full-width {
-  width: 100%;
-  margin: 15px 0;
+  width: 100%; */
+  /* padding: 0 16px 0;  */ 
+  margin: 40px 0;
 }
 
-/* .work {
-  box-sizing: border-box; 
-} */
+.work {
+  /* box-sizing: border-box; */
+} 
 
 /* -------- Mobile Styles --------*/
 
 /* Header code */
 header .full-width {
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 header {
@@ -45,13 +47,14 @@ header {
   justify-content: center;
   justify-items: center;
   margin: 9px 0;
+  /* padding: 0 16px;  */
 }
 header h1 {
   font-size: 2em;
   font-weight: bolder;
   line-height: normal;
-  margin: 15px;
-  padding-top: 20px;
+  margin: 0 aut0;
+  padding: 0 16px; */
   letter-spacing: inherit;
   text-align: left;
 }
@@ -70,7 +73,8 @@ header p {
   position: relative;
   font-size: 1em;
   margin: 0;
-  background-color: #ff654a;
+  padding: 0;
+  /* background-color: #ff654a; */
   
 } 
 
@@ -113,11 +117,12 @@ header p {
   width: 100%;
   background-color: #ff654a;
   color: #ffffff;
+  /* padding: 20px 0; */
 }
 
-#about .full-width {
-  margin: 9px;
-}
+/* #about .full-width {
+  margin: 
+} */
 
 #about img{
   width: 90%;
@@ -131,6 +136,7 @@ header p {
   text-align: center;
   color: #ffffff;
   margin: 15px;
+  padding: 0 10px;
 } 
 
 /* Portfolio code */
@@ -141,10 +147,13 @@ header p {
   flex-flow: column;
 }  
 
-.full-width {
+#portfolio .full-width {
   width: 100%;
   overflow: auto;
+  /* margin: 9px; */
+  /* padding: 0 16px; */
 }
+
 #portfolio h2 {
   text-align: center;
   padding-top: 5px;
@@ -170,7 +179,7 @@ header p {
 #contact {
   background-color: #ff654a;
   color: #ffffff;
-  padding: 0;
+  /* padding: 0; */
   width: 100%;
   flex-flow: column;
 }
@@ -218,16 +227,15 @@ header p {
 /* Tablet styles here */
 /* General styles */
 .full-width {
-  /* max-width: 640px; */
-  margin: 0 auto;
+  max-width: 640px; 
+  /* margin: 0 auto; */
 }  
 
 /* Header code */
 header {
   justify-content: space-around;
-  width: 100%;
+  /* width: 100%; */
   overflow: hidden;
-  padding: ;
 }
 
 .mynav {
@@ -277,7 +285,9 @@ header h1 {
 /* About code */
  #about .full-width {
   width: 100%;
+  margin: 20px;
 } 
+
 
 /* Portfolio code */
 #portfolio {
@@ -289,7 +299,12 @@ header h1 {
 .full-width {
   width: 100%;
   /* padding: 50px; */
-  margin: 20px 0;
+  /* margin: 20px 0; */
+}
+
+/* About code */
+#about p {
+  margin: 0 150px;
 }
 
 .work {
@@ -331,16 +346,26 @@ header h1 {
 @media only screen and (min-width: 1200px){
 /* Desktop styles here */
 /* General styles */
-
+.full-width {
+  margin: 50px 0;
+  max-width: 960px;
+  /* text-align: center; */
+}
 /* Header code */
+header {
+  /* margin: 15px; */
+  width: 100%;
+}
 header .half-width {
-  padding: px 0;
+  padding: ;
 }
 header h1 {
-font-size: 2em;
+  font-size: 2em;
+  margin: 20px;
 }
 header p {
-font-size: 1.2em;
+  font-size: 1.56em;
+  padding: 20px;
 }
 
 /* Portifolio code */
