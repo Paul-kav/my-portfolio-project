@@ -26,22 +26,14 @@ h3 {
 }
 
 .full-width {
-  width: 100%; */
+  width: 100%;
   /* padding: 0 16px 0;  */ 
   margin: 40px 0;
 }
 
-.work {
-  /* box-sizing: border-box; */
-} 
-
 /* -------- Mobile Styles --------*/
 
 /* Header code */
-header .full-width {
-  /* margin: 0 auto; */
-}
-
 header {
   display: flex;
   justify-content: center;
@@ -54,7 +46,7 @@ header h1 {
   font-weight: bolder;
   line-height: normal;
   margin: 0 aut0;
-  padding: 0 16px; */
+  padding: 0 16px; 
   letter-spacing: inherit;
   text-align: left;
 }
@@ -359,9 +351,8 @@ header {
   /* margin: 15px; */
   width: 100%;
 }
-header .half-width {
-  padding: ;
-}
+
+
 header h1 {
   font-size: 2em;
   margin: 20px;
